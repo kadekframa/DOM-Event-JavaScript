@@ -21,5 +21,5 @@ function increment(){
 }
 
 
-document.body.onload = welcome;
-document.getElementById("incrementButton").onclick = increment;
+// document.body.onload = welcome;
+// document.getElementById("incrementButton").onclick = increment;
