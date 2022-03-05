@@ -18,6 +18,10 @@ function increment(){
         content.appendChild(hiddenMessage).appendChild(image);
 
     }
+
+    
+    window.addEventListener('load', welcome);
+    document.getElementById("incrementButton").addEventListener('click',increment);
 }
 
 
