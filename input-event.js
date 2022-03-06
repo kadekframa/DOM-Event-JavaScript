@@ -51,13 +51,13 @@ document.getElementById("inputCaptcha").addEventListener("change", function(){
 });
 
 
-// Event inputCopy.
+// Event onCopy.
 document.getElementById("inputCopy").addEventListener("copy", function(){
     alert("Anda Telah Men-copy Sesuatu!");
 });
 
 
-// Event inputPaste.
+// Event onPaste.
 document.getElementById("inputPaste").addEventListener("paste",function(){
     alert("Anda telah men-paste sebuah teks..");
 });
